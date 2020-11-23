@@ -1,0 +1,88 @@
+.parent {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.one {
+  background: #ffff00;
+}
+
+.two {
+  background: #ff0000;
+  position: relative;
+  left: 3em;
+  top: -2em;
+}
+
+.three {
+  background: blue;
+  position: relative;
+  z-index: -1;
+  left: 6em;
+  top: -4em;
+  color: #ffffff;
+}
+
+.four {
+  background: #808080;
+  position: relative;
+  left: 9em;
+  top: -6em;
+}
+
+.five {
+  background: #4b0082;
+  color: #fff;
+  position: relative;
+  left: 12em;
+  top: -8em;
+}
+
+.six {
+  background:#ee82ee;
+}
+
+.seven {
+  background: #ffa500;
+  position: relative;
+  right: 3em;
+  top: -2em;
+}
+
+.eight {
+  background: #ffc0cb;
+  position: relative;
+  right: 6em;
+  top: -4em;
+  z-index: -1;
+}
+
+.nine {
+  background: #008000;
+  position: relative;
+  right: 9em;
+  top: -6em;
+}
+
+.ten {
+  background: #83ca83;
+  position: relative;
+  right: 12em;
+  top: -8em;
+}
+
+.eleven {
+  background: #181212;
+  color: #fff;
+  position: relative;
+  right: 21em;
+  top: -8em;
+}

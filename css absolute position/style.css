@@ -1,0 +1,25 @@
+div {
+  background: red;
+  height: auto;
+  width: 50%;
+  padding: 1em;
+  position: relative;
+}
+
+.absolute {
+  background: yellow;
+  padding: 1em;
+  position: absolute;
+  bottom: 1.625em;
+  left: 2em;
+  margin-right: 1em;
+}
+
+.sticky {
+  font-weight: 700;
+  background: #dbdb8d;
+  padding: 1em;
+  position: sticky;
+  margin: 0;
+  top: 0;
+}
